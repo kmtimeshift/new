@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'inquiry/new'
   get 'inquiry/confirm'
   get 'inquiry/thanks'
